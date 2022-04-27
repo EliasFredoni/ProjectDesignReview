@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'graphik';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Graphik'), local('Regular'),
+        url(../fonts/Graphik-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'theinhardt';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Theinhardt'), local('lt'),
+        url(../fonts/Theinhardt-Lt.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'tiemp';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TiemposHeadline'), local('Semibold'),
+        url(../fonts/TiemposHeadline-Semibold.woff) format('woff');
+}
+
+/*********************************************/
+
+* {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/***********HEADER*************************/
+
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+
+header>nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 13px;
+    font-family: 'graphik';
+}
+
+header>div>h1 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+header>div>img {
+    width: 90vw;
+
+}
+
+header h2 {
+    font-size: 35px;
+    font-family: 'tiemp';
+}
+
+header button {
+    background-color: white;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*********MAIN****************************/
+
+main>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main>div>p {
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 20px;
+}
+
+main>div>h3 {
+    font-size: 70px;
+}
+
+main>div>h3>span {
+    font-size: 7px;
+}
+
+/*********MAIN SECTION***********************/
+
+main>section {
+    display: flex;
+}
+
+main>section>img {
+    width: 50%;
+}
+
+main>section>div>h4 {
+    font-size: 40px;
+}
+
+main>section>div>h5 {
+    font-size: 20px;
+}
+
+/********MAIN ARTICLE******************/
+
+main>article {
+    background-color: #9FA2A7;
+    display: flex;
+}
+
+main>article>img {
+    width: 50%;
+}
+
+main>article>div>h4 {
+    font-size: 40px;
+}
+
+/********MAIN CLASS*******************/
+
+.critique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.critique>h4 {
+    font-size: 40px;
+}
+
+.critique>img {
+    width: 70%;
+    padding-top: 20px;
+}
+
+.critique>p {
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-bottom: 60px;
+}
+
+.critique>div {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.critique>div>p {
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+.critique>div>img {
+    width: 50vw;
+}
+
+
+/*********FOOTER*********************/
+
+
+footer h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+footer div {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 30%;
+    :
+}
+
+footer img {
+    width: 10vw;
+}
+
+
+
+/* 
+Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff
+Fonts: Graphik, TiemposHeadline, Theinhardt  */
