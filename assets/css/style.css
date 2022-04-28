@@ -41,25 +41,26 @@ header>nav {
 header>nav>ul {
     display: flex;
     list-style: none;
-    gap: 13px;
+    gap: 10px;
+    font-size: 15px;
     font-family: 'graphik';
+    color: #3D3E41;
 }
 
 header>div>h1 {
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
     justify-content: center;
+    font-family: 'graphik';
 }
 
 header>div>img {
     width: 90vw;
-
 }
 
 header h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'tiemp';
+    padding-right: 100px;
 }
 
 header button {
@@ -77,16 +78,21 @@ main>div {
 }
 
 main>div>p {
+    font-family: 'graphik';
+    color: #3D3E41;
     padding-left: 250px;
     padding-right: 250px;
     font-size: 20px;
 }
 
 main>div>h3 {
+    font-family: 'theinhardt';
     font-size: 70px;
 }
 
 main>div>h3>span {
+    color: #9FA2A7;
+    font-family: 'theinhardt';
     font-size: 7px;
 }
 
@@ -101,18 +107,26 @@ main>section>img {
 }
 
 main>section>div>h4 {
-    font-size: 40px;
+    font-family: 'tiemp';
+    font-size: 70px;
 }
 
 main>section>div>h5 {
+    font-family: 'graphik';
     font-size: 20px;
+}
+
+main>section>div>p {
+    color: #9FA2A7;
+    font-family: 'theinhardt';
 }
 
 /********MAIN ARTICLE******************/
 
 main>article {
-    background-color: #9FA2A7;
+    background-color: rgb(235, 234, 234);
     display: flex;
+    font-family: 'theinhardt';
 }
 
 main>article>img {
@@ -120,7 +134,8 @@ main>article>img {
 }
 
 main>article>div>h4 {
-    font-size: 40px;
+    font-family: 'tiemp';
+    font-size: 70px;
 }
 
 /********MAIN CLASS*******************/
@@ -129,11 +144,12 @@ main>article>div>h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(179, 179, 179);
 }
 
 .critique>h4 {
-    font-size: 40px;
+    font-family: 'tiemp';
+    font-size: 70px;
 }
 
 .critique>img {
@@ -146,6 +162,7 @@ main>article>div>h4 {
     padding-right: 30%;
     padding-left: 30%;
     margin-bottom: 60px;
+    font-family: 'theinhardt';
 }
 
 .critique>div {
@@ -155,6 +172,7 @@ main>article>div>h4 {
 }
 
 .critique>div>p {
+    font-family: 'tiemp';
     padding-left: 100px;
     padding-right: 70px;
 }
@@ -168,19 +186,28 @@ main>article>div>h4 {
 
 
 footer h4 {
+    font-family: 'tiemp';
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 footer div {
     display: flex;
     align-items: flex-end;
     padding-left: 30%;
-    :
+    font-family: 'graphik';
+    color: #9FA2A7;
+    padding-right: 10%;
 }
 
 footer img {
     width: 10vw;
+}
+
+footer>div>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 
 
